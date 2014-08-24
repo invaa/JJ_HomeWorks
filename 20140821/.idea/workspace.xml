@@ -6,12 +6,12 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408869954882" ignored="false" />
     <file path="/MainTests.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408869824920" ignored="false" />
-    <file path="/ArrayUtil.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408905083570" ignored="false" />
+    <file path="/ArrayUtil.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408905924963" ignored="false" />
     <file path="/fragment.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408901004500" ignored="false" />
     <file path="/Student.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408873071123" ignored="false" />
     <file path="/a.dummy" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408870144522" ignored="false" />
     <file path="/StudentAgeComparator.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408871059146" ignored="false" />
-    <file path="/ObjectArrayUtil.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408905074476" ignored="false" />
+    <file path="/ObjectArrayUtil.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408905845454" ignored="false" />
     <file path="/MainTask1.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408895890146" ignored="false" />
     <file path="/MainTask2.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408872568705" ignored="false" />
     <file path="/MainTask3.java" changelist="34d45427-e6e1-408f-9a21-1785beb0c12e" time="1408872810912" ignored="false" />
@@ -71,6 +71,25 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/util/ArrayUtil.java" line="13" class="main.java.com.diosoft.hw.lesson3.util.ArrayUtil" package="main.java.com.diosoft.hw.lesson3.util">
+        <option name="WATCH_ENTRY" value="true" />
+        <option name="WATCH_EXIT" value="true" />
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </method_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -103,7 +122,7 @@
       <file leaf-file-name="Lesson3ArrayUtilTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lesson3ArrayUtilTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+            <state line="51" column="67" selection-start="1500" selection-end="1502" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,17 +133,10 @@
       <file leaf-file-name="ArrayUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/util/ArrayUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+            <state line="264" column="19" selection-start="8903" selection-end="8903" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="method#getSafeArray#0;class#ArrayUtil#0" expanded="false" />
                 <element signature="docComment;method#mergeUnique#0;class#ArrayUtil#0" expanded="false" />
-                <element signature="method#mergeUnique#0;class#ArrayUtil#0" expanded="false" />
                 <element signature="docComment;method#sortAndGroupArray#0;class#ArrayUtil#0" expanded="false" />
-                <element signature="method#sortAndGroupArray#0;class#ArrayUtil#0" expanded="false" />
-                <element signature="method#getMergedAndGrouppedArrayLength#0;class#ArrayUtil#0" expanded="false" />
-                <element signature="method#arrayContains#0;class#ArrayUtil#0" expanded="false" />
-                <element signature="method#innerJoin#0;class#ArrayUtil#0" expanded="false" />
-                <element signature="method#outerJoin#0;class#ArrayUtil#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -133,12 +145,10 @@
       <file leaf-file-name="ObjectArrayUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/util/ObjectArrayUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="7" selection-start="4652" selection-end="4652" vertical-scroll-proportion="0.0">
+            <state line="20" column="12" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getSafeArray#0;class#ObjectArrayUtil#0" expanded="false" />
                 <element signature="method#mergeUnique#0;class#ObjectArrayUtil#0" expanded="false" />
-                <element signature="method#sortAndGroupArray#0;class#ObjectArrayUtil#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -147,7 +157,7 @@
       <file leaf-file-name="MainTask1.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/entrypoints/MainTask1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="54" selection-start="225" selection-end="225" vertical-scroll-proportion="0.42889908">
+            <state line="32" column="18" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.5711009">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,8 +188,10 @@
       <file leaf-file-name="Lesson3Task4AdditionalTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lesson3Task4AdditionalTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="22" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="209" column="67" selection-start="6418" selection-end="6420" vertical-scroll-proportion="26.4">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,7 +199,7 @@
       <file leaf-file-name="Lesson3ObjectArrayUtilTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lesson3ObjectArrayUtilTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+            <state line="119" column="67" selection-start="4201" selection-end="4203" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,8 +222,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/MainTask1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/entrypoints/MainTask4.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lesson3ArrayUtilTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/util/ObjectArrayUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/util/ArrayUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/model/StudentAgeComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/model/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/entrypoints/MainTask3.java" />
@@ -219,6 +229,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/entrypoints/MainTask1.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lesson3ObjectArrayUtilTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lesson3Task4AdditionalTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/util/ObjectArrayUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/util/ArrayUtil.java" />
       </list>
     </option>
   </component>
@@ -762,21 +774,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lesson3Task4AdditionalTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="209" column="67" selection-start="6418" selection-end="6420" vertical-scroll-proportion="26.4">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lesson3ObjectArrayUtilTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+        <state line="119" column="67" selection-start="4201" selection-end="4203" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lesson3ArrayUtilTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+        <state line="51" column="67" selection-start="1500" selection-end="1502" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -785,29 +799,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/util/ObjectArrayUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="7" selection-start="4652" selection-end="4652" vertical-scroll-proportion="0.0">
+        <state line="20" column="12" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getSafeArray#0;class#ObjectArrayUtil#0" expanded="false" />
             <element signature="method#mergeUnique#0;class#ObjectArrayUtil#0" expanded="false" />
-            <element signature="method#sortAndGroupArray#0;class#ObjectArrayUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/util/ArrayUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+        <state line="264" column="19" selection-start="8903" selection-end="8903" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="method#getSafeArray#0;class#ArrayUtil#0" expanded="false" />
             <element signature="docComment;method#mergeUnique#0;class#ArrayUtil#0" expanded="false" />
-            <element signature="method#mergeUnique#0;class#ArrayUtil#0" expanded="false" />
             <element signature="docComment;method#sortAndGroupArray#0;class#ArrayUtil#0" expanded="false" />
-            <element signature="method#sortAndGroupArray#0;class#ArrayUtil#0" expanded="false" />
-            <element signature="method#getMergedAndGrouppedArrayLength#0;class#ArrayUtil#0" expanded="false" />
-            <element signature="method#arrayContains#0;class#ArrayUtil#0" expanded="false" />
-            <element signature="method#innerJoin#0;class#ArrayUtil#0" expanded="false" />
-            <element signature="method#outerJoin#0;class#ArrayUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -846,7 +851,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diosoft/hw/lesson3/entrypoints/MainTask1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="54" selection-start="225" selection-end="225" vertical-scroll-proportion="0.42889908">
+        <state line="32" column="18" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.5711009">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

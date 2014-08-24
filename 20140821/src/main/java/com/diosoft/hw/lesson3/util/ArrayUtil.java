@@ -17,7 +17,7 @@ public class ArrayUtil {
             array = new int[0];
         } else {
             array = inputArray;
-        }
+        } //end if
         return array;
     }
 
@@ -78,9 +78,9 @@ public class ArrayUtil {
             if (currentValue != previousValue) {
                 j++;
                 grouppedResultArray[j] = currentValue;
-            }
+            } //end if
             previousValue = currentValue;
-        }
+        } //end for
 
         return grouppedResultArray;
     }
@@ -98,9 +98,9 @@ public class ArrayUtil {
 
             if (currentValue != previousValue) {
                 grouppedResultArrayLength++;
-            }
+            } //end if
             previousValue = currentValue;
-        }
+        } //end for
         return grouppedResultArrayLength;
     }
 
@@ -125,8 +125,8 @@ public class ArrayUtil {
         for (int current: rightArray) {
             if (arrayContains(leftArray, current)) {
                 resultArrayLength++;
-            }
-        }
+            } //end if
+        } //end for
 
         int[] resultArray = Arrays.copyOf(leftArray, resultArrayLength);
 
@@ -134,8 +134,8 @@ public class ArrayUtil {
         for (int current: rightArray) {
             if (arrayContains(leftArray, current)) {
                 resultArray[i++] = current;
-            }
-        }
+            } //end if
+        } //end for
 
         return resultArray;
     }
@@ -153,8 +153,8 @@ public class ArrayUtil {
             if (element == current)  {
                 //we need to find only first occurrence
                 return true;
-            }
-        }
+            } //end if
+        } //end for
         return false;
     }
 
@@ -188,7 +188,7 @@ public class ArrayUtil {
             if (leftArrayCursor == leftArray.length || rightArrayCursor == rightArray.length) {
                 //no elements to add
                 break;
-            } //end for
+            } //end if
 
             int currentLeftArrayElement = leftArray[leftArrayCursor];
             int currentRightArrayElement = rightArray[rightArrayCursor];
@@ -201,7 +201,7 @@ public class ArrayUtil {
                 leftArrayCursor++;
                 rightArrayCursor++;
                 shadowResultArray[resultArrayLength++] = currentLeftArrayElement;
-            } //end for
+            } //end if
         } //end for
 
         return Arrays.copyOf(shadowResultArray, resultArrayLength);
@@ -240,14 +240,14 @@ public class ArrayUtil {
                 System.arraycopy(rightArray,rightArrayCursor,shadowResultArray,resultArrayLength,tailLength);
                 resultArrayLength+=tailLength;
                 break;
-            } //end for
+            } //end if
 
             if (rightArrayCursor > rightArray.length - 1) {
                 int tailLength = leftArray.length - leftArrayCursor;
                 System.arraycopy(leftArray,leftArrayCursor,shadowResultArray,resultArrayLength,tailLength);
                 resultArrayLength+=tailLength;
                 break;
-            } //end for
+            } //end if
 
             int currentLeftArrayElement = leftArray[leftArrayCursor];
             int currentRightArrayElement = rightArray[rightArrayCursor];
@@ -261,8 +261,8 @@ public class ArrayUtil {
             } else {
                 leftArrayCursor++;
                 rightArrayCursor++;
-            } //end for
-        }
+            } //end if
+        } //end for
 
         return Arrays.copyOf(shadowResultArray, resultArrayLength);
     }

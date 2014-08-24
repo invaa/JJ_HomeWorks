@@ -18,7 +18,7 @@ public class ObjectArrayUtil {
             array = new Object[0];
         } else {
             array = inputArray;
-        }
+        } //end if
         return array;
     }
 
@@ -80,9 +80,9 @@ public class ObjectArrayUtil {
             if (!currentValue.equals(previousValue)) {
                 j++;
                 grouppedResultArray[j] = currentValue;
-            }
+            } //end if
             previousValue = currentValue;
-        }
+        } //end for
 
         return grouppedResultArray;
     }
@@ -100,9 +100,9 @@ public class ObjectArrayUtil {
 
             if (!currentValue.equals(previousValue)) {
                 grouppedResultArrayLength++;
-            }
+            } //end if
             previousValue = currentValue;
-        }
+        } //end for
         return grouppedResultArrayLength;
     }
 
@@ -128,8 +128,8 @@ public class ObjectArrayUtil {
         for (Object current: rightArray) {
             if (arrayContains(leftArray, current)) {
                 resultArrayLength++;
-            }
-        }
+            } //end if
+        } //end for
 
         Object[] resultArray = Arrays.copyOf(leftArray, resultArrayLength);
 
@@ -137,8 +137,8 @@ public class ObjectArrayUtil {
         for (Object current: rightArray) {
             if (arrayContains(leftArray, current)) {
                 resultArray[i++] = current;
-            }
-        }
+            } //end if
+        } //end for
 
         return resultArray;
     }
@@ -154,8 +154,8 @@ public class ObjectArrayUtil {
             if (element.equals(current))  {
                 //we need to find only first occurrence
                 return true;
-            }
-        }
+            } //end if
+        } //end for
         return false;
     }
 
@@ -189,7 +189,7 @@ public class ObjectArrayUtil {
             if (leftArrayCursor == leftArray.length || rightArrayCursor == rightArray.length) {
                 //no elements to add
                 break;
-            } //end for
+            } //end if
 
             Object currentLeftArrayElement = leftArray[leftArrayCursor];
             Object currentRightArrayElement = rightArray[rightArrayCursor];
@@ -202,7 +202,7 @@ public class ObjectArrayUtil {
                 leftArrayCursor++;
                 rightArrayCursor++;
                 shadowResultArray[resultArrayLength++] = currentLeftArrayElement;
-            } //end for
+            } //end if
         } //end for
 
         return Arrays.copyOf(shadowResultArray, resultArrayLength);
@@ -241,14 +241,14 @@ public class ObjectArrayUtil {
                 System.arraycopy(rightArray,rightArrayCursor,shadowResultArray,resultArrayLength,tailLength);
                 resultArrayLength+=tailLength;
                 break;
-            } //end for
+            } //end if
 
             if (rightArrayCursor > rightArray.length - 1) {
                 int tailLength = leftArray.length - leftArrayCursor;
                 System.arraycopy(leftArray,leftArrayCursor,shadowResultArray,resultArrayLength,tailLength);
                 resultArrayLength+=tailLength;
                 break;
-            } //end for
+            } //end if
 
             Object currentLeftArrayElement = leftArray[leftArrayCursor];
             Object currentRightArrayElement = rightArray[rightArrayCursor];
@@ -262,8 +262,8 @@ public class ObjectArrayUtil {
             } else {
                 leftArrayCursor++;
                 rightArrayCursor++;
-            } //end for
-        }
+            } //end if
+        } //end for
 
         return Arrays.copyOf(shadowResultArray, resultArrayLength);
     }
