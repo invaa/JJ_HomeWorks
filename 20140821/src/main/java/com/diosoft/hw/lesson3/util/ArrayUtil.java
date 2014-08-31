@@ -12,6 +12,7 @@ import java.util.Arrays;
 public class ArrayUtil {
 
     private static int[] getSafeArray(int[] inputArray) {
+        //local code review (vtegza): no need to initialize arrays here @ 31.08.14
         int[] array = null;
         if (inputArray == null) {
             array = new int[0];

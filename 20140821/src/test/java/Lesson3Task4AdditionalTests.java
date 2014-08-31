@@ -25,6 +25,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 
+// Note : good tests
 public class Lesson3Task4AdditionalTests {
 
     // BEGINNING OF LEFT UNION TESTS
@@ -199,9 +200,11 @@ public class Lesson3Task4AdditionalTests {
 
         int[] testResultArray = { 1, 4, 5, 23, 32, 65, 72 };
 
-        Assert.assertArrayEquals(testResultArray, ArrayUtil.innerJoin(firstArray, secondArray));
-    }
+        int[] returnedValue = ArrayUtil.innerJoin(firstArray, secondArray);
 
+        Assert.assertArrayEquals(testResultArray, returnedValue);
+    }
+    //local code review (vtegza): no need for comments, the method names tell everything @ 31.08.14
     // END OF INNER JOIN TESTS
 
     // BEGINNING OF OUTER JOIN TESTS

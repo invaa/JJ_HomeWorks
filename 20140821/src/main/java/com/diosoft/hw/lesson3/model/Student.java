@@ -10,6 +10,7 @@ package main.java.com.diosoft.hw.lesson3.model;
 public class Student {
     private final int age;
 
+    //local code review (vtegza): rearrange you methods/fields @ 31.08.14
     public int getAge() {
         return age;
     }

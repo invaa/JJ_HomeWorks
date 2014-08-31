@@ -46,7 +46,7 @@ public class Lesson3ObjectArrayUtilTests {
         };
 
         Object[] resultArray = ObjectArrayUtil.leftUnion(firstArray, secondArray);
-
+        //local code review (vtegza): extract new assert method and include sorting there @ 31.08.14
         Arrays.sort(testResultArray, comparator);
         Arrays.sort(resultArray, comparator);
 
@@ -80,6 +80,7 @@ public class Lesson3ObjectArrayUtilTests {
 
         Object[] resultArray = ObjectArrayUtil.mergeUnique(firstArray, secondArray, comparator);
 
+        //local code review (vtegza): extract new assert method and include sorting there @ 31.08.14
         Arrays.sort(testResultArray, comparator);
         Arrays.sort(resultArray, comparator);
 
@@ -110,6 +111,7 @@ public class Lesson3ObjectArrayUtilTests {
 
         Object[] resultArray = ObjectArrayUtil.innerJoin(firstArray, secondArray, comparator);
 
+        //local code review (vtegza): extract new assert method and include sorting there @ 31.08.14
         Arrays.sort(testResultArray, comparator);
         Arrays.sort(resultArray, comparator);
 
@@ -141,6 +143,7 @@ public class Lesson3ObjectArrayUtilTests {
 
         Object[] resultArray = ObjectArrayUtil.outerJoin(firstArray, secondArray, comparator);
 
+        //local code review (vtegza): extract new assert method and include sorting there @ 31.08.14
         Arrays.sort(testResultArray, comparator);
         Arrays.sort(resultArray, comparator);
 

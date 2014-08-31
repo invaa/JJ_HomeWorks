@@ -13,6 +13,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 
+//local code review (vtegza): move to separated test folder @ 31.08.14
 public class Lesson3ArrayUtilTests {
 
     @Test
@@ -22,7 +23,7 @@ public class Lesson3ArrayUtilTests {
         int[] secondArray = {3,5,24,4,1,2,34,45,32,5};
 
         int[] testResultArray = {1, 5, 4, 23, 65, 32, 72, 5, 4, 1, 32, 5};
-
+        //local code review (vtegza): extract method call @ 31.08.14
         Assert.assertArrayEquals(testResultArray, ArrayUtil.leftUnion(firstArray, secondArray));
     }
 
